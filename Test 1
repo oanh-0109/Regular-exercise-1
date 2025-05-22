@@ -1,0 +1,117 @@
+<!
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f4f8;
+}
+
+.container {
+    display: flex;
+    gap: 20px;
+}
+
+.box {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.box1 {
+    background-color: #e8f4f8;
+}
+
+.box2 {
+    background-color: #f4e8f8;
+}
+
+.box3 {
+    background-color: #f8f4e8;
+}
+
+h1 {
+    color: #2c3e50;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+p {
+    color: #7f8c8d;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    font-size: 14px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test 2</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="box box1">
+            <h1>Welcome to Test 2</h1>
+            <p>Layout for Test 2 based on Figma.</p>
+            <button>Click Me</button>
+        </div>
+        <div class="box box2">
+            <h1>Section 2</h1>
+            <p>Another section for Test 2.</p>
+            <button>Click Me</button>
+        </div>
+        <div class="box box3">
+            <h1>Section 3</h1>
+            <p>Final section for Test 2.</p>
+            <button>Click Me</button>
+        </div>
+    </div>
+</body>
+</html><!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test 3</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="box box1">
+            <h1>Welcome to Test 3</h1>
+            <p>Layout for Test 3 based on Figma.</p>
+            <button>Click Me</button>
+        </div>
+        <div class="box box2">
+            <h1>Section 2</h1>
+            <p>Another section for Test 3.</p>
+            <button>Click Me</button>
+        </div>
+        <div class="box box3">
+            <h1>Section 3</h1>
+            <p>Final section for Test 3.</p>
+            <button>Click Me</button>
+        </div>
+    </div>
+</body>
+</html>
